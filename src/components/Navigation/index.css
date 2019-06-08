@@ -1,0 +1,25 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 3px;
+}
+
+a {
+  color: #253bda;
+  display: inline-block;
+  background-color: yellow;
+  transition: 0.2s background-color;
+
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: orange;
+}
